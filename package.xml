@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+    <name>Marktfeed</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Marktfeed is d&#xE9; tool voor webshophouders die producten volledig automatisch op Marktplaats willen plaatsen.</summary>
+    <description>&lt;h3&gt;Automatische Admarkt koppeling&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+Koppel je bestaande Marktplaats Admarkt account eenvoudig en veilig aan die van Marktfeed. Je behoudt je eigen Marktplaats account(gegevens). De facturatie tussen Marktplaats en jouw webshop blijft ook zoals je het gewend bent. Heb je nog geen Admarkt account dan ontvang je &#x20AC; 50 starttegoed van Marktplaats. De vouchercode hiervoor ontvang je na aanmelding bij Marktfeed.&#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;Producten importeren&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+Heb je een webshop via een webshop-software-provider (bijvoorbeeld Magento)? Koppel dan eenvoudig jouw shop aan Marktfeed via de beschikbare plug-in om je producten te importeren. Je kunt ook een bestaande productfeed (bijvoorbeeld een standaard XML export) gebruiken om je producten automatisch te uploaden. Simpel en zonder technische kennis te gebruiken.&#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;Rubrieken koppelen&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+Kies (eenmalig) de juiste rubrieken en bijbehorende kenmerken van Marktplaats. De mappingtool van Marktfeed helpt je hier grotendeels bij, maar je kan ook geavanceerde regels bepalen. De uitgebreide rubriekenstructuur zorgt ervoor dat je kwalitatief goede advertenties kan maken door de juiste kenmerken te gebruiken die bij jouw producten horen. Hierdoor worden je advertenties beter gevonden.&#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;Advertenties plaatsen&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+Je advertenties worden automatisch aangemaakt binnen Marktfeed met de gegevens uit je bronbestand/database. Vanuit je advertentiecockpit heb je complete controle over je plaatsingen bij Marktplaats. Naast overzichtelijk beheer van je kosten per klik, budgetten en advertentie-statussen heeft Marktfeed nog een aantal superhandige tools waar je vrolijk van wordt.&#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;Synchronisatie en statistieken&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+Marktfeed en Marktplaats hebben een realtime koppeling waardoor je advertenties altijd kloppen met je aanbod binnen je webshop. De statistieken van je advertenties zijn tevens realtime, deze mailen we je maandelijks. Gebruik de utm-tagging-tool van Marktfeed om de resultaten en verkopen binnen Analytics te meten. Nu gebruik je Marktfeed als handige tool om advertentieplaatsingen op Marktplaats volledig te automatiseren en je verkoop te optimaliseren!&#xD;
+&lt;/p&gt;</description>
+    <notes>Initial release</notes>
+    <authors><author><name>EasyAds</name><user>MAG002936376</user><email>development@easyads.eu</email></author></authors>
+    <date>2015-10-08</date>
+    <time>15:41:21</time>
+    <contents><target name="magecommunity"><dir name="Marktfeed"><dir name="Api"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Fieldset"><file name="Hint.php" hash="dcb4ad0381bba57dea30856aeed6f1f7"/></dir></dir></dir></dir><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><file name="State.php" hash="f32e32ac1887fe8f6a386e34cdbb92a7"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="f85529026c61208f0c8105c8bdb6c34d"/></dir><dir name="Model"><file name="Access.php" hash="f37466fbbdd5c0ee2acbd96944d20f9c"/><file name="Api.php" hash="5e6b7bcde06b869283cd0d3cc54c5af1"/></dir><dir name="controllers"><file name="ConfigController.php" hash="c1fb8e4e65836ce8083dec56fe4d1b32"/></dir><dir name="etc"><file name="api.xml" hash="da3e60fecea102158a2b51ef86fe8a73"/><file name="config.xml" hash="0c7f26c3fb4890c5c461e70c088c3594"/><file name="system.xml" hash="11d95131a1dad9aafa2999b7ba8b9139"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Marktfeed_Api.xml" hash="90686744467ac041b7e72163d7f05432"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="marktfeed"><dir name="system"><dir name="config"><dir name="fieldset"><file name="hint.phtml" hash="d57f28440074ae93c0be2b08662e1fab"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="nl_NL"><file name="Marktfeed_Api.csv" hash="08fb93e07fc895e2644df8cc85e517f5"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="marktfeed"><file name="connected.png" hash="b4ea92038d64fe62aaf9ccd78214d026"/><file name="disconnected.png" hash="b48ea8cabc59712048c74ed72728dedc"/><file name="logo-marktfeed.png" hash="f6ab9dd2ea5701e46daaa29ea42a5e9c"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

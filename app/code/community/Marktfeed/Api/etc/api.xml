@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <marktfeed_api translate="title" module="marktfeed_api">
+                <title>Marktfeed Resource</title>
+				<model>marktfeed_api/api</model>
+				<acl>marktfeed_api</acl>
+                <methods>
+                    <register translate="title" module="marktfeed_api">
+                        <title>Register</title>
+						<acl>marktfeed_api/register</acl>
+                    </register>
+                    <unregister translate="title" module="marktfeed_api">
+                        <title>Unregister</title>
+						<acl>marktfeed_api/unregister</acl>
+                    </unregister>
+                    <productlist translate="title" module="marktfeed_api">
+                        <title>Productlist</title>
+						<acl>marktfeed_api/productlist</acl>
+                    </productlist>
+                </methods>
+                <faults module="marktfeed_api">
+                    <general_error>
+                        <code>100</code>
+                        <message>General error</message>
+                    </general_error>				
+                </faults>
+            </marktfeed_api>		
+        </resources>
+        <acl>
+            <resources>
+				<marktfeed_api translate="title" module="marktfeed_api">
+					 <title>Markteed Api</title>
+					 <register translate="title" module="marktfeed_api">
+						<title>Register</title>
+					 </register>
+					 <unregister translate="title" module="marktfeed_api">
+						<title>Unregister</title>
+					 </unregister>
+					 <productlist translate="title" module="marktfeed_api">
+						<title>Productlist</title>
+					 </productlist>
+				</marktfeed_api>
+                <all>
+                </all>				
+            </resources>
+        </acl>
+    </api>
+</config>
