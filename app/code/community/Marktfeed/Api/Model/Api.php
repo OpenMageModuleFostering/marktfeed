@@ -52,6 +52,8 @@ class Marktfeed_Api_Model_Api extends Mage_Api_Model_Resource_Abstract {
 		//
 		if ($store_id != 0)
 			$productCollection->setStoreId($store_id);
+		
+		$imageBaseUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'catalog/product'; 
 
 		//loop products
 		foreach ($productCollection AS $_product) {
@@ -60,6 +62,7 @@ class Marktfeed_Api_Model_Api extends Mage_Api_Model_Resource_Abstract {
 			
 			//get product data and remove un necessary data
 			$productData = $product->getData();
+			
 			unset($productData["stock_item"]);
 			unset($productData["custom_layout_update"]);
 			unset($productData["request_path"]);
@@ -70,10 +73,11 @@ class Marktfeed_Api_Model_Api extends Mage_Api_Model_Resource_Abstract {
 			
 			//add product images
 			$productData["images"] = array();
-			foreach ($product->getMediaGalleryImages() as $image) {
-				 $productData["images"][] = $image->getUrl();
-			}
 
+			foreach ($product->getData('media_gallery')["images"] as $image) {
+				 $productData["images"][] = $imageBaseUrl . $image["file"];
+			}
+			
 			//add to result
 			$productResult->products[] = $productData;
 		}
