@@ -15,15 +15,17 @@ class Marktfeed_Api_ConfigController extends Mage_Adminhtml_Controller_Action
 		$params["mage_version"] = Mage::getVersion();
 		$params["plugin_version"] = Mage::helper('marktfeed_api')->getExtensionVersion();
 		$params["api"] = Mage::getBaseUrl() . "api/xmlrpc/";
+		Mage::app()->cleanCache();
 		
-		$this->_redirectUrl("https://www.marktfeed.nl/link/magento?" . http_build_query($params));
+		$this->_redirectUrl("https://www.marktfeed.nl/link/magento?" . http_build_query($params,PHP_QUERY_RFC3986,'&'));
     }
 	
 	public function disconnectAction() {
 	
 		$params = array();
 		$params["guid"] = Mage::getStoreConfig("marktfeed/api/register_guid", 0);
+		Mage::app()->cleanCache();
 		
-		$this->_redirectUrl("https://www.marktfeed.nl/unlink/magento?" . http_build_query($params));
+		$this->_redirectUrl("https://www.marktfeed.nl/unlink/magento?" . http_build_query($params,PHP_QUERY_RFC3986,'&'));
 	}
 }
