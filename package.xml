@@ -1,32 +1,100 @@
 <?xml version="1.0"?>
 <package>
     <name>Marktfeed</name>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
     <channel>community</channel>
     <extends/>
     <summary>Marktfeed is d&#xE9; tool voor webshophouders die producten volledig automatisch op Marktplaats willen plaatsen.</summary>
-    <description>&lt;h3&gt;Automatische Admarkt koppeling&lt;/h3&gt;&#xD;
-&lt;p&gt;&#xD;
-Koppel je bestaande Marktplaats Admarkt account eenvoudig en veilig aan die van Marktfeed. Je behoudt je eigen Marktplaats account(gegevens). De facturatie tussen Marktplaats en jouw webshop blijft ook zoals je het gewend bent. Heb je nog geen Admarkt account dan ontvang je &#x20AC; 50 starttegoed van Marktplaats. De vouchercode hiervoor ontvang je na aanmelding bij Marktfeed.&#xD;
-&lt;/p&gt;&#xD;
-&lt;h3&gt;Producten importeren&lt;/h3&gt;&#xD;
-&lt;p&gt;&#xD;
-Heb je een webshop via een webshop-software-provider (bijvoorbeeld Magento)? Koppel dan eenvoudig jouw shop aan Marktfeed via de beschikbare plug-in om je producten te importeren. Je kunt ook een bestaande productfeed (bijvoorbeeld een standaard XML export) gebruiken om je producten automatisch te uploaden. Simpel en zonder technische kennis te gebruiken.&#xD;
-&lt;/p&gt;&#xD;
-&lt;h3&gt;Rubrieken koppelen&lt;/h3&gt;&#xD;
-&lt;p&gt;&#xD;
-Kies (eenmalig) de juiste rubrieken en bijbehorende kenmerken van Marktplaats. De mappingtool van Marktfeed helpt je hier grotendeels bij, maar je kan ook geavanceerde regels bepalen. De uitgebreide rubriekenstructuur zorgt ervoor dat je kwalitatief goede advertenties kan maken door de juiste kenmerken te gebruiken die bij jouw producten horen. Hierdoor worden je advertenties beter gevonden.&#xD;
-&lt;/p&gt;&#xD;
-&lt;h3&gt;Advertenties plaatsen&lt;/h3&gt;&#xD;
-&lt;p&gt;&#xD;
-Je advertenties worden automatisch aangemaakt binnen Marktfeed met de gegevens uit je bronbestand/database. Vanuit je advertentiecockpit heb je complete controle over je plaatsingen bij Marktplaats. Naast overzichtelijk beheer van je kosten per klik, budgetten en advertentie-statussen heeft Marktfeed nog een aantal superhandige tools waar je vrolijk van wordt.&#xD;
-&lt;/p&gt;&#xD;
-&lt;h3&gt;Synchronisatie en statistieken&lt;/h3&gt;&#xD;
-&lt;p&gt;&#xD;
-Marktfeed en Marktplaats hebben een realtime koppeling waardoor je advertenties altijd kloppen met je aanbod binnen je webshop. De statistieken van je advertenties zijn tevens realtime, deze mailen we je maandelijks. Gebruik de utm-tagging-tool van Marktfeed om de resultaten en verkopen binnen Analytics te meten. Nu gebruik je Marktfeed als handige tool om advertentieplaatsingen op Marktplaats volledig te automatiseren en je verkoop te optimaliseren!&#xD;
-&lt;/p&gt;</description>
+    <description>&lt;p&gt;Marktfeed, an official API partner of Marktplaats.nl, is the ideal tool for automatic real-time ad placements on Marktplaats for all Magento shop owners. You can manage your products on the biggest e-commerce website of The Netherlands with this easy solution. &lt;a href=&quot;https://youtu.be/52JhYMYrTOw&quot;&gt;Watch our video&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2&gt;Why Marktfeed?&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Dedicated tool for Marktplaats.nl&lt;/li&gt;
+	&lt;li&gt;
+		Real-time product imports and &amp;ndash;updates&lt;/li&gt;
+	&lt;li&gt;
+		Costs and budget insight, cpc variations, real-time statistics&lt;/li&gt;
+	&lt;li&gt;
+		Extensive category mapping with support for advanced rules&lt;/li&gt;
+	&lt;li&gt;
+		Simple set-up and easy to use interface, for every shop owner&lt;/li&gt;
+	&lt;li&gt;
+		Excellent Dutch, English and German customer support&lt;/li&gt;
+	&lt;li&gt;
+		No setup-fees, No contracts&lt;/li&gt;
+	&lt;li&gt;
+		14 days trial, Only &amp;euro;29,- / month&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Product flow:&lt;/h2&gt;
+&lt;h3&gt;Connect to Marktplaats Admarkt&lt;/h3&gt;
+&lt;p&gt;
+	Easily link your existing Marktplaats Admarkt account safely to Marktfeed. You will keep your own Marktplaats account(data) and invoicing between Marktplaats and your shop will remain like you&amp;rsquo;re used to. If you don&amp;rsquo;t have an Admarkt account yet, you will receive &amp;euro; 50 free credits from Marktplaats. The voucher code will be send to you after you register with Marktfeed.
+&lt;/p&gt;
+&lt;h3&gt;Automatically import your products from Magento&lt;/h3&gt;
+&lt;p&gt;
+	Simply connect your shop using the available plug-in with Marktfeed. Your products will automatically be imported from your Magento shop. Marktfeed has an easy to use interface which allows you to import your products without technical knowledge.
+&lt;/p&gt;
+&lt;h3&gt;Map your categories&lt;/h3&gt;
+&lt;p&gt;
+	With our smart mapping tool you only have to map your categories once. The Marktfeed mapping tool will support you with the mapping and for advanced users it&amp;rsquo;s possible to define advanced rules. Our extensive category structure ensures you&amp;rsquo;ll create good quality ads by using the right properties associated with your products. This way your ads will get found easier and you&amp;rsquo;ll get more traffic to your website.
+&lt;/p&gt;
+&lt;h3&gt;
+	Publish your ads on Marktplaats&lt;/h3&gt;
+&lt;p&gt;
+	Within the Marktfeed interface your ads will automatically be generated using the product data from your Magento shop. You have complete control over your ad placements on Marktplaats from your Marktfeed-cockpit. Aside from organized management of your cost-per-click, budgets and ad statuses, Marktfeed has some more useful tools which will make you happy.
+&lt;/p&gt;
+&lt;h3&gt;
+	Goal reached: real-time product synchronization and statistics&lt;/h3&gt;
+&lt;p&gt;
+	Marktfeed has a real-time connection to Marktplaats: this means that your ads are always up-to-date according to your product inventory in your Magento online shop. You have access to real-time statistics which will be mailed to you monthly. Use Marktfeed&amp;rsquo;s UTM-tagging tool to measure your results and sales within Analytics. Now you&amp;rsquo;re using Marktfeed as a handy tool to automate ad placements on Marktplaats and to optimize your sales!
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;
+	Marktfeed.nl - Automatisch advertenties plaatsen op Marktplaats.nl&lt;/h2&gt;
+&lt;p&gt;
+	Marktfeed is partner van Marktplaats voor alle Magento-shop houders die producten volledig automatisch op Marktplaats willen plaatsen. De meest innovatieve en complete tool om je producten real-time om te zetten naar goed converterende Admarkt advertenties. &lt;a href=&quot;https://youtu.be/52JhYMYrTOw&quot;&gt;Bekijk onze video&lt;/a&gt;
+	&amp;nbsp;&lt;/p&gt;
+&lt;h2&gt;
+	Waarom Marktfeed?&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Specifieke tool voor Marktplaats Admarkt&lt;/li&gt;
+	&lt;li&gt;
+		Real-time producten importeren en up-daten&lt;/li&gt;
+	&lt;li&gt;
+		Kosten en (maand) budget controle, cpc variaties, real-time statistieken&lt;/li&gt;
+	&lt;li&gt;
+		Uitgebreide rubriekenstructuur met mogelijkheid voor geavanceerde regels&lt;/li&gt;
+	&lt;li&gt;
+		Eenvoudige set-up en gebruikersvriendelijke interface, voor elke shophouder te begrijpen&lt;/li&gt;
+	&lt;li&gt;
+		Uitstekende Nederlandstalige klantenservice en &amp;ndash;support&lt;/li&gt;
+	&lt;li&gt;
+		Geen contracten en setupkosten, 14 dagen gratis uitproberen&lt;/li&gt;
+	&lt;li&gt;Voordelige prijs van &amp;euro;29,- per maand (5.000 producten)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Stappen voor succesvol plaatsen op Admarkt Marktplaats&lt;/h2&gt;
+&lt;h3&gt;Koppel jouw Admarkt Marktplaats account&lt;/h3&gt;
+&lt;p&gt;
+	Koppel je bestaande Marktplaats Admarkt account eenvoudig en veilig aan die van Marktfeed. Je behoudt je eigen Marktplaats account(gegevens). De facturatie tussen Marktplaats en jouw Magento webshop blijft ook zoals je het gewend bent. Heb je nog geen Admarkt account dan ontvang je &amp;euro; 50 starttegoed van Marktplaats. De vouchercode hiervoor ontvang je na aanmelding bij Marktfeed.&lt;/p&gt;
+&lt;h3&gt;
+	Producten importeren via Magento&lt;/h3&gt;
+&lt;p&gt;
+	Koppel eenvoudig jouw Magento webshop aan Marktfeed via de beschikbare plug-in om je producten te importeren. Simpel en zonder technische kennis te gebruiken.&lt;/p&gt;
+&lt;h3&gt;Rubrieken koppelen&lt;/h3&gt;
+&lt;p&gt;
+	Kies (eenmalig) de juiste rubrieken en bijbehorende kenmerken van Marktplaats. De mappingtool van Marktfeed helpt je hier grotendeels bij, maar je kan ook geavanceerde regels bepalen. De uitgebreide rubriekenstructuur zorgt ervoor dat je kwalitatief goede advertenties kan maken door de juiste kenmerken te gebruiken die bij jouw producten horen. Hierdoor worden je advertenties beter gevonden.
+&lt;/p&gt;
+&lt;h3&gt;Advertenties plaatsen op Marktplaats&lt;/h3&gt;
+&lt;p&gt;
+	Je advertenties worden automatisch aangemaakt binnen Marktfeed met de gegevens uit je Magento-shop. Vanuit je advertentiecockpit heb je complete controle over je plaatsingen bij Marktplaats. Naast overzichtelijk beheer van je kosten per klik, budgetten en advertentie-statussen heeft Marktfeed nog een aantal superhandige tools waar je vrolijk van wordt.
+&lt;/p&gt;
+&lt;h3&gt;Doel bereikt: Synchronisatie en real-time statistieken&lt;/h3&gt;
+&lt;p&gt;
+	Marktfeed en Marktplaats hebben een realtime koppeling waardoor je advertenties altijd kloppen met je aanbod binnen je Magento webshop. De statistieken van je advertenties zijn tevens realtime, deze mailen we je maandelijks. Gebruik de utm-tagging-tool van Marktfeed om de resultaten en verkopen binnen Analytics te meten. Nu gebruik je Marktfeed als handige tool om advertentieplaatsingen op Marktplaats volledig te automatiseren en je verkoop te optimaliseren!&lt;/p&gt;</description>
     <notes>Initial release</notes>
     <authors><author><name>EasyAds</name><user>MAG002936376</user><email>development@easyads.eu</email></author></authors>
     <date>2016-02-01</date>
